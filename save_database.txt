@@ -1,0 +1,21 @@
+Taxi search...
+The taxi has been found, we are updating the information.
+Distance: 52522
+Car name: Mazda 3
+The cost of the trip: 15756
+Driver's name: Mel
+Driver's name: Mel
+Driver's experience: 4
+Driver's rating: 1.6
+Thanks for the review, what did you like about this driver? 
+good
+Thanks for the comment, have a good trip. 
+Taxi search...
+The taxi has been found, we are updating the information.
+Distance: 60260
+Car name: Opel Rekord
+The cost of the trip: 18078
+Driver's name: Oscar
+Driver's name: Oscar
+Driver's experience: 4
+Driver's rating: 1.2
