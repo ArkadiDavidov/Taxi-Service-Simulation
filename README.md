@@ -35,7 +35,7 @@ Saves all interactions to "save_database.txt"
 
 Maintains logs of taxi assignments and feedback
 
-Technical Implementation
+## Technical Implementation
 Object-oriented design with Taxi class
 
 File I/O operations for name/car databases
@@ -46,7 +46,7 @@ Stream handling for both console and file output
 
 User interaction through console menu
 
-### How It Works
+## How It Works
 Users can call a taxi, which generates a random driver/car assignment
 
 Users can view driver information (experience, rating)
