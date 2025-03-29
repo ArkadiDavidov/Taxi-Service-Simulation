@@ -1,7 +1,9 @@
 # Taxi Service Simulation
 This C++ project simulates a taxi service system with randomized driver assignments, trip pricing, and user feedback collection.
 
-## Key Features Taxi Assignment System:
+## Key Features
+
+### Taxi Assignment System:
 
 Randomly selects drivers from a "names_database.txt"
 
@@ -11,7 +13,7 @@ Generates random driver experience (1-30 years)
 
 Calculates driver ratings (1.0-5.0 with 0.1 precision)
 
-Trip Management:
+### Trip Management:
 
 Generates random trip distances (10,000-100,000 units)
 
@@ -19,7 +21,7 @@ Calculates trip cost based on distance (30% of distance)
 
 Displays comprehensive trip information
 
-User Feedback System:
+### User Feedback System:
 
 Collects star ratings (1-5)
 
@@ -27,7 +29,7 @@ Gathers qualitative feedback based on rating
 
 Provides appropriate responses to different rating levels
 
-Data Persistence:
+### Data Persistence:
 
 Saves all interactions to "save_database.txt"
 
@@ -44,7 +46,7 @@ Stream handling for both console and file output
 
 User interaction through console menu
 
-How It Works
+### How It Works
 Users can call a taxi, which generates a random driver/car assignment
 
 Users can view driver information (experience, rating)
