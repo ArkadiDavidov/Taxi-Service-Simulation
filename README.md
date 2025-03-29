@@ -1,8 +1,7 @@
 # Taxi Service Simulation
 This C++ project simulates a taxi service system with randomized driver assignments, trip pricing, and user feedback collection.
 
-Key Features
-Taxi Assignment System:
+## Key Features Taxi Assignment System:
 
 Randomly selects drivers from a "names_database.txt"
 
