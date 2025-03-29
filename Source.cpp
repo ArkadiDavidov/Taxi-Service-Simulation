@@ -23,7 +23,6 @@ int main() {
         std::cin >> choice;
 
         if (choice == 1) {
-            // Генерируем новые данные при каждом вызове такси
             car_name = taxi1.cars_pack();
             person_name = taxi1.name_pack();
             experience = taxi1.exp();
@@ -44,9 +43,7 @@ int main() {
             taxi1.person_info(out);
         }
         else if (choice == 3) {
-            // Первый вызов - ввод данных и вывод в консоль
             taxi1.stars(std::cout, true);
-            // Второй вызов - вывод в файл (без запроса ввода)
             taxi1.stars(out, false);
         
     }
