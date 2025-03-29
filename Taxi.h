@@ -24,18 +24,6 @@ public:
         experience = experience1;
         rating = rating1;
     }
-    
-    //void func() {
-    //    for (int i = 0; i < 5; i++) {
-    //        name_pack();
-    //        rtng();
-    //        cars_pack();
-    //        dist_price();
-    //        exp();
-    //    }
-    // }
-
-    
 
     void get_info(std::ostream& out) {
         out << "Distance: " << distance << std::endl;
@@ -51,14 +39,13 @@ public:
     }
 
     void stars(std::ostream& out, bool inputFromUser = true) {
-        static int star;          // static, чтобы значение сохранялось между вызовами
+        static int star;          
         static std::string comments;
 
-        // Ввод данных только при первом вызове (inputFromUser == true)
         if (inputFromUser) {
             std::cout << "Rate the trip from 1 to 5" << std::endl;
             std::cin >> star;
-            std::cin.ignore(); // Очистка буфера
+            std::cin.ignore(); 
 
             switch (star) {
             case 5:
@@ -81,7 +68,7 @@ public:
             }
         }
 
-        // Вывод в переданный поток (консоль или файл)
+)
         switch (star) {
         case 5:
             out << "Thanks for the review, what did you like about this driver? " << std::endl;
